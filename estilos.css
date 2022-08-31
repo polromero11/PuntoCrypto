@@ -10,6 +10,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Overpass', sans-serif;
+    text-transform: capitalize;
 }
 
 .contenedor {
@@ -39,10 +40,12 @@ header {
     align-items: center;
     flex-direction: column;
     color: #fff
+    
 }
 
 .hamburguer {
     position: fixed;
+    z-index: 10;
     top: 30px;
     right: 30px;
     background: #517fa4;
@@ -68,6 +71,8 @@ header {
     transition: transform .3s ease-in-out;
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    font-family: 'Overpass', sans-serif;
+    text-transform: capitalize;
 
 }
 
